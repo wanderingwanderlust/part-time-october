@@ -6,6 +6,7 @@ navBarHeader.innerHTML = 'Greg'
 helloWorld()
 
 function helloWorld() {
+    debugger;
     const card = document.getElementById('friends')
     const name = "greg's brewery"
     const number = 7
