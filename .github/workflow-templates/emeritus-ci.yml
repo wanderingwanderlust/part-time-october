@@ -1,0 +1,17 @@
+name: Emeritus CI
+
+on:
+  push:
+    branch: [ $default-branch ]
+  pull_request:
+    branches: [$default-branch]
+  
+jobs:
+  builds:
+    runs-on: ubuntu-latest
+
+  steps:
+    - uses: actions/checkout@v2
+
+    - name: Run a one-line script
+      run: echo Hello from Emeritus

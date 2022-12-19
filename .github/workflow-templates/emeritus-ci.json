@@ -1,0 +1,11 @@
+{
+    "name": "Emeritus  CI",
+    "description": "Emeritus CI",
+    "iconName": "example-icon",
+    "categories": [ "Go"],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\md$"
+    ] 
+}
