@@ -1,0 +1,16 @@
+{
+    "name": "giphy",
+    "version": "1.0.0",
+    "description": "Testing Fetch",
+    "main": "./js/app.js",
+    "dependencies": {
+      "course-utilities": "^1.0.0",
+      "jest": "^26.1.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "jest"
+    },
+    "author": "Greg",
+    "license": "MIT"
+  }
