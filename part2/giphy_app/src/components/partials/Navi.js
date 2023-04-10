@@ -10,7 +10,13 @@ function Navi() {
                     <NavItem>
                         <NavLink tag={Link} to='/about'>About</NavLink>
                     </NavItem>
-                    {/* ToDo Add Login, Register, Search, Saved */}
+                    <NavItem>
+                        <NavLink tag={Link} to='/gifs/search'>Search Gifs</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink tag={Link} to='/gifs/saved'>Saved Gifs</NavLink>
+                    </NavItem>
+                    {/* ToDo Add Login, Register*/}
                 </Nav>
             </Collapse>
         </Navbar>
