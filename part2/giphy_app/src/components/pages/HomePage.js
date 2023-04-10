@@ -4,6 +4,7 @@ import ToDoHook from '../Todo/ToDoHook';
 import CarouselStrap from '../helper/CarouselStrap';
 import {useEffect, useState} from 'react';
 import axios from 'axios';
+import TicTacToe from '../games/TicTacToe';
 
 function HomePage() {
     const apiKey = 'bS07LFfS4YxZqE5wTrcPGMTJfPTO2LxP'; //go to developer giphy and create your own dev account and add the key here
@@ -37,6 +38,10 @@ function HomePage() {
         <Button color="primary">Hello World</Button>
         <ToDoHook />
       </header>
+      <div className='row'>
+        <div><h2>Tic Tac Toe</h2></div>
+        <TicTacToe />
+      </div>
     </div>
   );
 }
